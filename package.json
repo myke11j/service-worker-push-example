@@ -1,0 +1,26 @@
+{
+  "name": "service-worker-push-example",
+  "version": "1.0.0",
+  "description": "Simple Push notifications using JavaScript Service Worker.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myke11j/service-worker-push-example.git"
+  },
+  "author": "Mukul <@mukul1904>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/myke11j/service-worker-push-example/issues"
+  },
+  "homepage": "https://github.com/myke11j/service-worker-push-example#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "http": "0.0.0"
+  }
+}
